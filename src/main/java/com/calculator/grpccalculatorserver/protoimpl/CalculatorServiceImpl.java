@@ -5,7 +5,9 @@ import com.calculator.SumRequest;
 import com.calculator.SumResponse;
 import com.calculator.grpccalculatorserver.calc.Sum;
 import io.grpc.stub.StreamObserver;
+import org.lognet.springboot.grpc.GRpcService;
 
+@GRpcService
 public class CalculatorServiceImpl extends CalculatorServiceGrpc.CalculatorServiceImplBase {
 
     @Override
