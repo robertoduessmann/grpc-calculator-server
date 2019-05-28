@@ -12,7 +12,7 @@
 	<artifactId>grpc-calculator-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>grpc-calculator-server</name>
-	<description>Demo project for Spring Boot</description>
+	<description>A demo web service that provides calculation operations through gRPC protocol</description>
 
 	<properties>
 		<java.version>11</java.version>
